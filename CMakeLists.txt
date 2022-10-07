@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(coroutine)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 # add_executable(coroutine coroutine2_boost.cpp)
 
@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 # add_executable(coroutine coroutine.cpp)
 
  
-add_subdirectory(学习异步)
+add_subdirectory(多线程读取文件)
 
 # add_executable(coroutine main.cpp)
 
